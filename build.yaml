@@ -17,3 +17,9 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+include:
+  - board: calvin_travaulta
+  - board: calvin_travaulta
+    snippet: enable_ec_calibrator
+    artifact-name: calvin_travaulta_calibrator
+

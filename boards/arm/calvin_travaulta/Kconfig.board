@@ -1,0 +1,8 @@
+# Travaulta board configuration
+
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_CALVIN_TRAVAULTA
+    bool "Travaulta"
+    depends on SOC_STM32401XC

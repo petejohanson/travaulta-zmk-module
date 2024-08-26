@@ -1,0 +1,14 @@
+# Travaulta board configuration
+
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_CALVIN_TRAVAULTA
+
+config BOARD
+    default "calvin_travaulta"
+
+config ZMK_KEYBOARD_NAME
+    default "Travaulta"
+
+endif # BOARD_CALVIN_TRAVAULTA
